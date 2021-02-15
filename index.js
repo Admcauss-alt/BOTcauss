@@ -65,18 +65,18 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN: BRUXINHO MODS\n'
-            + 'ORG:Owner BRUXINHO;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=5511934713306:+55 11 93471-3306\n'
+            + 'FN: CAUSS\n'
+            + 'ORG:Owner CAUSS;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=554792091566:+55 47 9209-1566\n'
             + 'END:VCARD'
 
 prefix = "!"
-name = "~ BRUXINHO  | MODS"
-rdaftar = "OBRIGADO POR SE REGISTAR PARA SER UM TEMENTE BRUXINHO MODS😁"
-rmenu = "BRUXINHO DOMINA KARAY:)"
+name = "~ CAUSS | BOT"
+rdaftar = "OBRIGADO POR SE REGISTAR PARA SER UM TEMENTE😁"
+rmenu = "CAUSS NO CONTROLE:)"
 limitt = 10
 ban = []
-userpremium = ["5511934713306@s.whatsapp.net"] //ubah nomer kalian
+userpremium = ["554792091566@s.whatsapp.net"] //ubah nomer kalian
 
 function kyun(seconds){
   function pad(s){
@@ -192,7 +192,7 @@ async function starts() {
 					ownerG: '*ᴍᴀᴀꜰ ᴩᴇʀɪɴᴛᴀʜ ɪɴɪ ʜᴀɴyᴀ ʙɪꜱᴀ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴏʟᴇʜ ᴏᴡɴᴇʀ ɢʀᴏᴜᴩ!*',
 					ownerB: '*ᴍᴀᴀꜰ ᴩᴇʀɪɴᴛᴀʜ ɪɴɪ ʜᴀɴyᴀ ʙɪꜱᴀ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴏʟᴇʜ ᴏᴡɴᴇʀ ʙᴏᴛ!* ',
 					premium: '*desculpe, este comando e especificamente para usuários premium!!*',
-					userB: `salve Mano ${pushname2} voce nn esta cadastrado no banco de dados do BRUXINHO MODS digite ${prefix}daftar`,
+					userB: `salve Mano ${pushname2} voce nn esta cadastrado no banco de dados do CAUSS BOT digite ${prefix}daftar`,
 					admin: '*ᴍᴀᴀꜰ ᴩᴇʀɪɴᴛᴀʜ ɪɴɪ ʜᴀɴyᴀ ʙɪꜱᴀ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴏʟᴇʜ ᴀᴅᴍɪɴ ɢʀᴏᴜᴩ!*',
 					Badmin: '*ᴍᴀᴀꜰ ᴩᴇʀɪɴᴛᴀʜ ɪɴɪ ʜᴀɴyᴀ ʙɪꜱᴀ ᴅɪ ɢᴜɴᴀᴋᴀɴ ᴋᴇᴛɪᴋᴀ ʙᴏᴛ ᴍᴇɴᴊᴀᴅɪ ᴀᴅᴍɪɴ!*'
 				}
