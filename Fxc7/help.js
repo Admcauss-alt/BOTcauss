@@ -2,8 +2,8 @@
 const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal) => { 
 	return `
 
-\`\`\`APROVEITEM O BOT FML TMJ\`\`\`
-\`\`\`MMEU CANAL: https://youtu.be/hwJ31n05Qwk\`\`\`
+\`\`\`USE O BOT COM MODERAÇÃO\`\`\`
+\`\`\`CANAL DO CAUSS: https://youtube.com/channel/UCpB3qh2Sp3K23s9a2Q-Gf-g\`\`\`
 
 ╭──────「 *REGULATION ${name}* 」
 ┴
@@ -106,11 +106,6 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 │➻ *${prefix}animecry*
 │➻ *${prefix}neonime*
 │➻ *${prefix}animekiss*
-┬
-╰───────────────────────
-
-╭───────「 *𝐴𝑃𝐸𝑁𝐴𝑆 𝐸𝑀 𝐺𝑅𝑈𝑃𝑂* 」
-┴
 │➻ *${prefix}welcome On/Off*
 │➻ *${prefix}grup buka/tutup*
 │➻ *${prefix}antilink on/off*
@@ -118,10 +113,10 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 │➻ *${prefix}setpp*
 │➻ *${prefix}infogc*
 │➻ *${prefix}add 55𝑋𝑋𝑋𝑋𝑋𝑋*
-│➻ *${prefix}kick @𝑚𝑎𝑟𝑞𝑢𝑒 𝑜 𝑓𝑑𝑝*
-│➻ *${prefix}kicktime @𝑚𝑎𝑟𝑞𝑢𝑒 𝑜 𝑓𝑑𝑝*
-│➻ *${prefix}promote @𝑚𝑎𝑟𝑞𝑢𝑒 𝑜 𝑓𝑑𝑝*
-│➻ *${prefix}demote @𝑚𝑎𝑟𝑞𝑢𝑒 𝑜 𝑓𝑑𝑝*
+│➻ *${prefix}kick @marca o leke*
+│➻ *${prefix}kicktime @marca o leke*
+│➻ *${prefix}promote @marca o leke*
+│➻ *${prefix}demote @marca o leke*
 │➻ *${prefix}setname*
 │➻ *${prefix}setdesc*
 │➻ *${prefix}linkgrup*
@@ -131,11 +126,6 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 │➻ *${prefix}mentionall*
 │➻ *${prefix}fitnah*
 │➻ *${prefix}listadmin*
-┬
-╰────────────────────────
-
-╭───────「 *𝐴𝑃𝐸𝑁𝐴𝑆 𝐸𝑀 𝐺𝑅𝑈𝑃𝑂* 」
-┴
 │➻ *${prefix}nsfw On/Off*
 │➻ *${prefix}nsfwloli*
 │➻ *${prefix}nsfwblowjob*
@@ -254,7 +244,7 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 ┬
 ╰────────────────────────
 
-╭──────「 *OUTROS FUN & GAME* 」
+╭──────「 *SPAM (USE COM CUIDADO)* 」
 ┴
 │➻ *${prefix}spamcall 083xxxxxxxxx*
 │➻ *${prefix}spamsms 083xxxxxxxx/jumlah*
@@ -263,7 +253,7 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 ╰────────────────────────
 
 
-╭─────────「 *𝑺Ó 𝑷𝑹𝑶𝑷𝑹𝑰𝑬𝑻𝑨𝑹𝑰𝑶* 」
+╭─────────「 *APENAS O CAUSS* 」
 ┴
 │➻ *${prefix}addprem mentioned*
 │➻ *${prefix}removeprem mention*
@@ -287,7 +277,7 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 ╰────────────────────────
 
 
-╭────────「 *𝑷𝑹𝑬𝑴𝑰𝑼𝑴 𝑨𝑷𝑬𝑵𝑨𝑺* 」
+╭────────「 *PREMIUM* 」
 ┴
 │➻ *${prefix}playmp3 menepi*
 │➻ *${prefix}fb link video*
