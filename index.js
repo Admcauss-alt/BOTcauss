@@ -378,7 +378,7 @@ async function starts() {
 					me = client.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `⟩➢ *Nome do bot* : ${me.name}\n⟩➢ *Numero do Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total de fdp`s* : ${blocked.length}\n⟩➢ *Ativo* : ${kyun(uptime)}\n\n⟩➢ Total de usuários: *${user.length}* Do utilizador\n⟩➢ *Instagram* : https://instagram.com/animexx_png?igshid=e7zziiwn3d9y\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩➢ MahankBarBar`
+					teks = `⟩➢ *Nome do bot* : ${me.name}\n⟩➢ *Numero do Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total de lindos* : ${blocked.length}\n⟩➢ *Ativo* : ${kyun(uptime)}\n\n⟩➢ Total de usuários: *${user.length}* Do utilizador\n⟩➢ *Instagram* : https://instagram.com/animexx_png?igshid=e7zziiwn3d9y\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩➢ MahankBarBar`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
