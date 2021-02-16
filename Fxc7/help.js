@@ -13,11 +13,9 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 ┣⊱  \`\`\`ATIVO:\`\`\` ${kyun(uptime)}
 ┣⊱  \`\`\`JAM:\`\`\` *${jam} WIB*
 ┣⊱  \`\`\`mes:\`\`\` *${tanggal}*
-┣⊱  \`\`\`VERSAO:\`\`\` *3.0.0*
+┣⊱  \`\`\`VERSAO:\`\`\` *1.0.6*
 ┣⊱  \`\`\`USE TERDAFTAR:\`\`\` *${user.length} User*
-┣⊱  ❌ *SPAM*
-┣⊱  ❌ *CALL & VC*
-┣⊱  \`\`\`\`\`\` *BOT FEITO POR BY BRUXINHO MODS*
+┣⊱  \`\`\`\`\`\` *BOT FEITO POR CAUSS*
 ┬
 ╰────────────────────────
 
@@ -60,17 +58,17 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 ╰────────────────────────
 
 
-╭──────「 *CRIADOR MENU* 」
+╭──────「 *menu de criação 😳* 」
 ┴
 │➻ *${prefix}quotemaker tx/wtrmk/tema*
 │➻ *${prefix}nulis nama/kelas/text*
-│➻ *${prefix}nulis Fxc7/Bot*
+│➻ *${prefix}nulis Causs/Bot*
 │
-│➻ *${prefix}tahta BRUXINHO*
-│➻ *${prefix}croman BRUXINHL dan BOT*
-│➻ *${prefix}clove BRUXINHO*
-│➻ *${prefix}cparty BRUXINHO*
-│➻ *${prefix}csky BRUXINHO*
+│➻ *${prefix}tahta CAUSS BOT*
+│➻ *${prefix}croman CAUSSdan BOT*
+│➻ *${prefix}clove CAUSS BOT*
+│➻ *${prefix}cparty CAUSS BOT*
+│➻ *${prefix}csky CAUSS BOT*
 │➻ *${prefix}tts id Haii*
 │➻ *${prefix}ttp BRUXINHO [ERRO]*
 │➻ *${prefix}cballon BRUXINHO*
@@ -163,11 +161,6 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 │➻ *${prefix}jadwaltvnow*
 │➻ *${prefix}hekerbucin*
 │➻ *${prefix}katailham*
-┬
-╰────────────────────────
-
-╭──────「 *OUTROS FUN & GAME* 」
-┴
 │➻ *${prefix}jarak Banyuwangi/Surabaya*
 │➻ *${prefix}translate en/Apa kabar?*
 │➻ *${prefix}pasangan Farhan/Iriene*
@@ -177,11 +170,11 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 │➻ *${prefix}persengay Topan*
 │➻ *${prefix}pbucin Farhan*
 │➻ *${prefix}bpfont Farhan*
-│➻ *${prefix}textstyle FXC7*
+│➻ *${prefix}textstyle CAUSS BOT*
 │➻ *${prefix}jadwaltv antv*
-│➻ *${prefix}lirik melukis senja*
+│➻ *${prefix}lirik (nome da música)*
 │➻ *${prefix}chord Melukis senja*
-│➻ *${prefix}wiki Adolf Hitler*
+│➻ *${prefix}wiki (*
 │➻ *${prefix}brainly pertanyaan*
 │➻ *${prefix}resepmasakan rawon*
 │➻ *${prefix}map Banyuwangi*
@@ -213,20 +206,10 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 │➻ *${prefix}cerpen*
 │➻ *${prefix}cersex*
 │➻ *${prefix}randombokep*
-│➻ *${prefix}pornhub stepMoms*
-┬
-╰────────────────────────
-
-╭──────「 *OUTROS FUN & GAME* 」
-┴
+│➻ *${prefix}pornhub stepMomsi
 │➻ *${prefix}jadwalsholat Banyuwangi*
 │➻ *${prefix}quran*
 │➻ *${prefix}quransurah 1*
-┬
-╰────────────────────────
-
-╭──────「 *OOUTROS JOGOS DIVERTIDOS* 」
-┴
 │➻ *${prefix}becrypt string*
 │➻ *${prefix}encode64 string*
 │➻ *${prefix}decode64 encrypt*
@@ -277,7 +260,7 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 ╰────────────────────────
 
 
-╭────────「 *PREMIUM* 」
+╭────────「 *SÓ OS PREMIUM* 」
 ┴
 │➻ *${prefix}playmp3 menepi*
 │➻ *${prefix}fb link video*
