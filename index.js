@@ -72,7 +72,7 @@ const vcard = 'BEGIN:VCARD\n'
 
 prefix = "!"
 name = "~ CAUSS | BOT"
-rdaftar = "OBRIGADO POR SE REGISTAR PARA SER UM TEMENTE😁"
+rdaftar = "OBRIGADO POR SE tornar um membro do causs bot😁"
 rmenu = "CAUSS NO CONTROLE:)"
 limitt = 10
 ban = []
@@ -130,7 +130,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `xauu seu fdp @${num.split('@')[0]}👋`
+				teks = `até nunca maisKKKKK@${num.split('@')[0]}👋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -180,10 +180,10 @@ async function starts() {
 			
 
 			mess = {
-				wait: '*⏳ AGUARDE um pouco mano...*',
-				success: '*ꜱᵘᶜᵉˢˢᵒ...*',
+				wait: '*⏳ PERAE LEKE(CAUSS BOT TA FAZENDO)...*',
+				success: '*sucesso leke...*',
 				error: {
-					stick: ' *ocorreu um erro ao converter uma imagem em adesivo*',
+					stick: ' *ocorreu um erro na conversão*',
 					Iv: '*link invalido!!*'
 				},
 				only: {
@@ -199,7 +199,7 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5511934713306@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["554792091566@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -378,7 +378,7 @@ async function starts() {
 					me = client.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `⟩➢ *Nome Bot* : ${me.name}\n⟩➢ *Numero Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total Block* : ${blocked.length}\n⟩➢ *Ativo* : ${kyun(uptime)}\n\n⟩➢ Total de usuários: *${user.length}* Do utilizador\n⟩➢ *Instagram* : https://www.instagram.com/_farhan_xcode7\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩➢ MahankBarBar`
+					teks = `⟩➢ *Nome do bot😳* : ${me.name}\n⟩➢ *Numero do Bot😳* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total de fdp`s* : ${blocked.length}\n⟩➢ *Ativo* : ${kyun(uptime)}\n\n⟩➢ Total de usuários: *${user.length}* Do utilizador\n⟩➢ *Instagram* : https://instagram.com/animexx_png?igshid=e7zziiwn3d9y\n⟩➢ *Special Thanks To* :\n⟩➢ Allah SWT \n⟩➢ MahankBarBar`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -399,7 +399,7 @@ async function starts() {
 					client.sendMessage(from, ben.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": ban}})
 					break 
 				case 'premiumlist':
-				prem = '```Lista de Premium BRUXINHO MODS``` :\n'
+				prem = '```LISTA DE PREMIUM DO CAUSS``` :\n'
 					for (let userprem of userpremium) {
 						prem += `~> @${userprem.split('@')[0]}\n`
 					}
@@ -570,7 +570,7 @@ async function starts() {
 					}
                 reply(mess.wait) // leave empty to get your own
 			    buffer = await getBuffer(ppUrl)
-		        client.sendMessage(from, buffer, image, {quoted: mek, caption: `*NAME* : ${groupName}\n*MEMBER* : ${groupMembers.length}\n*ADMIN* : ${groupAdmins.length}\n*DESK* : ${groupDesc}`})
+		        client.sendMessage(from, buffer, image, {quoted: mek, caption: `*NOME* : ${groupName}\n*MEMBER* : ${groupMembers.length}\n*ADMIN* : ${groupAdmins.length}\n*DESK* : ${groupDesc}`})
                 break
 				case 'trendtwit':
 					client.updatePresence(from, Presence.composing) 
@@ -747,7 +747,7 @@ async function starts() {
 				  case 'ownergroup':
                client.updatePresence(from, Presence.composing) 
               options = {
-          text: `Este proprietário do grupo é : wa.me/${from.split("-")[0]}`,
+          text: `Dono do gp é o : wa.me/${from.split("-")[0]}`,
           contextInfo: { mentionedJid: [from] }
            }
            client.sendMessage(from, options, text, { quoted: mek } )
@@ -755,10 +755,10 @@ async function starts() {
 				case 'leave': 
 				    if (!isGroup) return reply(mess.only.group)
 					if (!isOwner) return reply(mess.only.ownerB)
-			    	anu = await client.groupLeave(from, `Tchau All Membe *${groupMetadata.subject}*`, groupId)
+			    	anu = await client.groupLeave(from, `grupo arquivado*${groupMetadata.subject}*`, groupId)
 	                break
 	            case 'getses':
-                    if (!isOwner) return client.reply(from, 'Este comando é apenas para proprietários de barcos', id)
+                    if (!isOwner) return client.reply(from, 'Este comando é apenas para o CAUSS', id)
                     const sesPic = await client.getSnapshot()
                     client.sendFile(from, sesPic, 'session.png', 'Neh...', id)
                     break
@@ -844,7 +844,7 @@ async function starts() {
                     media = await client.downloadAndSaveMediaMessage(mek)
                     await client.updateProfilePicture (from, media)
                     reply(mess.wait)
-                    reply(`\`\`\`✓Alteração de perfis de grupo com sucesso\`\`\` *${groupMetadata.subject}*`)
+                    reply(`\`\`\`✓Ft do gp alterada com sucesso lindo\`\`\` *${groupMetadata.subject}*`)
                     break
                 case 'apakah':
                 if (isBanned) return reply(mess.only.benned)    
@@ -998,7 +998,7 @@ async function starts() {
 				    if (isBanned) return reply(mess.only.benned)    
 				    if (!isUser) return reply(mess.only.userB)
 				    if (isLimit(sender)) return reply(limits.limitend(pushname2))
-						if (!isNsfw) return reply(' *FALSO* ')
+						if (!isNsfw) return reply(' *FALSO?* ')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/randomloli?apikey=${TobzApi}`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
